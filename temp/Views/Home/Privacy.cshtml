@@ -1,0 +1,193 @@
+﻿@{
+    ViewData["Title"] = "Privacy";
+}
+
+<style>
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(rgba(10,15,25,0.88), rgba(10,15,25,0.92)), url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        overflow-x: hidden;
+    }
+
+    .main-container {
+        max-width: 1150px;
+        margin: auto;
+        padding: 45px 25px;
+    }
+
+    /* HERO */
+
+    .hero {
+        text-align: center;
+        padding: 60px;
+        border-radius: 35px;
+        background: rgba(255,255,255,0.08);
+        backdrop-filter: blur(16px);
+        border: 1px solid rgba(255,255,255,0.12);
+        box-shadow: 0 10px 35px rgba(0,0,0,0.35);
+        margin-bottom: 40px;
+    }
+
+        .hero h1 {
+            font-size: 72px;
+            margin-bottom: 15px;
+            font-weight: 800;
+            color: #38bdf8;
+            letter-spacing: 2px;
+        }
+
+        .hero p {
+            font-size: 22px;
+            color: #cbd5e1;
+            line-height: 1.8;
+            max-width: 850px;
+            margin: auto;
+        }
+
+    /* INFO CARDS */
+
+    .section-card {
+        background: rgba(255,255,255,0.08);
+        backdrop-filter: blur(14px);
+        border-radius: 28px;
+        padding: 35px;
+        margin-bottom: 25px;
+        border: 1px solid rgba(255,255,255,0.12);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+        transition: 0.3s ease;
+    }
+
+        .section-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.11);
+        }
+
+        .section-card h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+            color: #38bdf8;
+        }
+
+        .section-card p {
+            font-size: 18px;
+            line-height: 1.9;
+            color: #e2e8f0;
+        }
+
+    /* FOOTER BOX */
+
+    .info-box {
+        margin-top: 40px;
+        text-align: center;
+        padding: 40px;
+        border-radius: 30px;
+        background: rgba(56,189,248,0.12);
+        border: 1px solid rgba(56,189,248,0.25);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    }
+
+        .info-box h3 {
+            font-size: 38px;
+            margin-bottom: 15px;
+            color: #38bdf8;
+        }
+
+        .info-box p {
+            font-size: 19px;
+            color: #cbd5e1;
+            line-height: 1.8;
+        }
+
+    .divider {
+        text-align: center;
+        margin: 25px 0;
+        color: #38bdf8;
+        font-size: 24px;
+        letter-spacing: 8px;
+    }
+
+</style>
+
+<div class="main-container">
+
+    <!-- HERO -->
+
+    <div class="hero">
+
+        <h1>Privacy & System Info</h1>
+
+        <p>
+            This IoT dashboard monitors real-time sensor information
+            received from the embedded device and displays it
+            through a modern web interface.
+        </p>
+
+    </div>
+
+    <!-- CARD 1 -->
+
+    <div class="section-card">
+
+        <h2>System Overview</h2>
+
+        <p>
+            The application receives sensor data from the FRDM-MCXN947
+            development board using network communication and stores
+            the information for live monitoring.
+        </p>
+
+    </div>
+
+    <!-- CARD 2 -->
+
+    <div class="section-card">
+
+        <h2>Data Processing</h2>
+
+        <p>
+            Temperature values and timestamps are processed in real-time
+            and displayed inside the dashboard interface using ASP.NET
+            and database integration.
+        </p>
+
+    </div>
+
+    <!-- CARD 3 -->
+
+    <div class="section-card">
+
+        <h2>Privacy Policy</h2>
+
+        <p>
+            This project does not collect personal user information.
+            Only device identifiers, sensor values and timestamps
+            are stored locally for monitoring purposes.
+        </p>
+
+    </div>
+
+    <div class="divider">
+        • • •
+    </div>
+
+    <!-- FINAL BOX -->
+
+    <div class="info-box">
+
+        <h3>Embedded Systems & IoT</h3>
+
+        <p>
+            Modern IoT monitoring platform developed using
+            embedded systems, networking, ASP.NET and database technologies.
+        </p>
+
+    </div>
+
+</div>

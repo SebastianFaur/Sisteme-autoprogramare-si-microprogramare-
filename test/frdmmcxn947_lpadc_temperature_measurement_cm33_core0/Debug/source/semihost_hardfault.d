@@ -1,0 +1,6 @@
+source/semihost_hardfault.o source/semihost_hardfault.d: \
+ ../source/semihost_hardfault.c \
+ C:\Users\me\Documents\MCUXpressoIDE_25.6.136\test\frdmmcxn947_lpadc_temperature_measurement_cm33_core0\source\mcux_config.h \
+ C:\Users\me\Documents\MCUXpressoIDE_25.6.136\test\frdmmcxn947_lpadc_temperature_measurement_cm33_core0\source\mcuxsdk_version.h
+C:\Users\me\Documents\MCUXpressoIDE_25.6.136\test\frdmmcxn947_lpadc_temperature_measurement_cm33_core0\source\mcux_config.h:
+C:\Users\me\Documents\MCUXpressoIDE_25.6.136\test\frdmmcxn947_lpadc_temperature_measurement_cm33_core0\source\mcuxsdk_version.h:

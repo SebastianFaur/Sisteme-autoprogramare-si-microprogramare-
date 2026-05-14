@@ -1,0 +1,7 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:frdmmcxn947_lpadc_temperature_measurement_cm33_core0 LinkServer Debug,org.eclipse.launchbar.core.descriptorType.default\:frdmmcxn947_lwip_httpsrv_bm_cm33_core0 LinkServer Debug
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:frdmmcxn947_lpadc_temperature_measurement_cm33_core0\ LinkServer\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:frdmmcxn947_lpadc_temperature_measurement_cm33_core0\ LinkServer\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

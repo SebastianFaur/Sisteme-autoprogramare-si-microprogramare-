@@ -1,0 +1,3 @@
+C:\Users\me\Documents\MCUXpressoIDE_25.6.136\test\frdmmcxn947_lpadc_temperature_measurement_cm33_core0\drivers/fsl_spc.h:1105:20:SPC_EnableActiveModeAnalogModules	16	static
+../board/hardware_init.c:38:7:DEMO_MeasureTemperature	64	static
+../board/hardware_init.c:74:6:BOARD_InitHardware	16	static

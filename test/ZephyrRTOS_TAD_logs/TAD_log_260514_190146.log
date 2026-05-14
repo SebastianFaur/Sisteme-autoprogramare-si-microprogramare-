@@ -1,0 +1,12 @@
+"Task Aware Debugger for GDB" version 25.6.0 (202506250844)
+Copyright 2016-2025 NXP
+==================================
+18:43:12.26 INFO: [ZephyrRTOS] .config file could not be read [C:\Users\me\Documents\MCUXpressoIDE_25.6.136\test\frdmmcxn947_lpadc_temperature_measurement_cm33_core0\Debug\.config (The system cannot find the file specified)]
+18:43:12.26 INFO: [TadModel] DSF session ID 0 has started.
+18:43:18.443 INFO: [TadState] TAD state changed: DEBUG_STARTED -> DEBUG_INIT_0 (RESUMED, USER_REQUEST)
+18:43:18.458 INFO: [TadState] TAD state changed: DEBUG_INIT_0 -> DEBUG_INIT_1 (SUSPENDED, SIGNAL)
+18:43:20.396 INFO: [TadState] TAD state changed: DEBUG_INIT_1 -> DEBUG_SUSPENDED (RESUMED, USER_REQUEST)
+18:43:20.462 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_SUSPENDED (SUSPENDED, BREAKPOINT)
+19:01:33.280 INFO: [ZephyrRTOS] .config file could not be read [C:\Users\me\Documents\MCUXpressoIDE_25.6.136\test\frdmmcxn947_lwip_httpsrv_bm_cm33_core0\Debug\.config (The system cannot find the file specified)]
+19:01:33.280 INFO: [TadModel] DSF session ID 1 has started.
+19:01:46.355 INFO: [TadModel] DSF session ID 0 has ended.
